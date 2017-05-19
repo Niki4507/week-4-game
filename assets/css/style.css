@@ -1,0 +1,131 @@
+.title {
+	background-color: orange;
+	float: left;
+	text-align: left;
+	color: white;
+	margin-top: 0px;
+	width: 300px;
+	height: 100px;
+	clear: both;
+	position: absolute;
+}
+
+body {
+}
+
+#paragraph {
+	display: block;
+	margin-top: 110px;
+	background-color: white;
+	font-size: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	width: 600px;
+	background-color: #F5F5DC;
+	color: green;
+	padding: 5px;
+	clear: both;
+}
+
+#compScore {
+	background-color: #00cc66;
+	width: 250px;
+	height: 110px;
+	margin-top: 20px;
+	float: left;
+	padding-left: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: absolute;
+	display: block;
+	clear: both;
+}
+
+#compNum {
+	font-size: 48px;
+	padding-left: 5px;
+	padding-bottom: 20px;
+}
+
+#gameCounter {
+	background-color: #00FFFF;
+	width: 100px;
+	height: 110px;
+	margin-left: 300px;
+	margin-top: 20px;
+	position: relative;
+}
+
+#win {
+	position: absolute;
+	top: 5px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+
+#loss {
+	position: absolute;
+	top: 40px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+#crystalsGrouping {
+	clear: left;
+	position: relative;
+	margin-top: 20px;
+	height: 150px;
+}
+
+#buttonGarnet {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+}
+
+#buttonSapphire {
+	position: absolute;
+	top: 15px;
+	left: 150px;
+}
+
+#buttonDiamond{
+	position: absolute;
+	top: 15px;
+	left: 300px;
+}
+
+#buttonEmerald {
+	position: absolute;
+	top: 15px;
+	left: 450px;
+}
+
+#scoreLabel {
+	position: relative;
+	background-color: #008080;
+	color: white;
+	width: 250px;
+	height: 50px;
+	padding: 5px;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#scoreCount {
+	position: relative;
+	background-color: #008080;
+	color: white;
+	width: 250px;
+	height: 100px;
+	padding: 5px;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#scoreNum {
+	position: absolute;
+	top: 0px;
+	left: 25px;
+	font-size: 56px;
+}	
