@@ -13,21 +13,34 @@ var emeraldNum = Math.floor(Math.random() * 12 + 1);
 
  $("#compNum").text(compNum);
 
-//Guess functions when buttons are clicked. Add the first total score plus the clicked variable and html output total score.
+function reset(){
+compNum = Math.floor(Math.random() * 102 + 19);
+totalScore = 0;
+garnetNum = Math.floor(Math.random() * 12 + 1);
+sapphireNum = Math.floor(Math.random() * 12 + 1);
+diamondNum = Math.floor(Math.random() * 12 + 1);
+semeraldNum = Math.floor(Math.random() * 12 + 1);
+$("#compNum").html(compNum);
+$("#scoreNum").html(totalScore);
+}
+
 function winner(){
 alert("Winner!");
   winCount++; 
   $("#win").html("Wins: " + winCount);
-  //reset();
+  reset();
 }
-//addes the losses to the userTotal
+//adds losses to loss count
 function loser(){
 alert ("Loser!");
   lossCount++;
   $("#loss").html("Losses: "+ lossCount);
-  //reset()
+  reset();
 }
 
+//Guess functions when buttons are clicked. 
+//Add the first total score plus the clicked variable and html output total score.
+//Functions for determining win and loss counts
 $("#buttonGarnet").click(function() {
   totalScore=totalScore+garnetNum; 		
   $("#scoreNum").html(totalScore);
@@ -74,6 +87,7 @@ $("#buttonEmerald").click(function() {
           loser();
         }
   }); 
+
 });
 
 
